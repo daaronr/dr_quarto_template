@@ -1,0 +1,3 @@
+# A file to do all background work, run everything in order, and render output
+
+system("quarto render --to all")

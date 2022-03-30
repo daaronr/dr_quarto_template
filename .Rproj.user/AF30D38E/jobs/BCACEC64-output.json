@@ -1,0 +1,8 @@
+[1,"Installing 'quarto' ...\n"]
+[1,"Retrieving 'https://cloud.r-project.org/bin/macosx/contrib/4.1/quarto_1.1.tgz' ...\n"]
+[1,"\tOK [downloaded 47.8 Kb in 0.5 secs]\n"]
+[1,"Installing quarto [1.1] ...\n"]
+[1,"\tOK [installed binary]\n"]
+[1,"Moving quarto [1.1] into the cache ...\n"]
+[1,"\tOK [moved to cache in 0.43 milliseconds]\n"]
+[2,"\n\n✔ Package 'quarto' successfully installed.\n"]

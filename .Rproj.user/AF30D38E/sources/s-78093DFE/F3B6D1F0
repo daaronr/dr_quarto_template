@@ -1,0 +1,28 @@
+{
+    "id": "F3B6D1F0",
+    "path": "~/githubs/dr_quarto_template/main.R",
+    "project_path": "main.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1648671316279.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "10,0",
+        "scrollLine": "1",
+        "marks": "<:0,0\n>:0,0",
+        "docOutlineVisible": "1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1648671821,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1648671821099,
+    "read_only": false,
+    "read_only_alternatives": []
+}

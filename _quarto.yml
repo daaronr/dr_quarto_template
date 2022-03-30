@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "mybook"
+  author: "Jane Doe"
+  date: "30/03/2022"
+  chapters:
+    - index.qmd
+    - chapters/intro.qmd
+    - chapters/summary.qmd
+    - chapters/references.qmd
+  reader-mode: true
+  
+comments:
+    hypothesis: true
+
+bibliography: references.bib
+
+format:
+  html:
+    code-fold: true
+    code-link: true #note: this isn't working for me
+    code-tools: true
+    theme: cosmo
+
+ # pdf:
+  #  documentclass: scrreprt
+
+#editor: visual
+
