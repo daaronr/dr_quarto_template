@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mybook",
+    "title": "Reinstein’s template for Quarto (WIP)",
     "section": "",
     "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n\n\n\n\n# Preface {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>."
   },
@@ -28,8 +28,8 @@
     "text": "Figure 2.1 further explores the impact of temperature on ozone level.\n\nCodelibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n\n\n\nFigure 2.1: Temperature and ozone level.\n\n\n\n\n\n\n\n\n\n# Summary\n\n## Air Quality {#air-quality}\n\n@fig-airquality further explores the impact of temperature on ozone level.\n\n```{r}\n#| label: fig-airquality\n#| fig-cap: Temperature and ozone level.\n#| warning: false\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n```"
   },
   {
-    "objectID": "chapters/references.html",
-    "href": "chapters/references.html",
+    "objectID": "references.html",
+    "href": "references.html",
     "title": "References",
     "section": "",
     "text": "Source Code\n# References {.unnumbered}\n\n::: {#refs}\n:::"

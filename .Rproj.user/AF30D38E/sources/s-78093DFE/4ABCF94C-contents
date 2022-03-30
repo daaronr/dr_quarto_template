@@ -3,16 +3,17 @@ project:
   output-dir: docs
 
 book:
-  title: "mybook"
-  author: "Jane Doe"
-  date: "30/03/2022"
+  title: "Reinstein's template for Quarto (WIP)"
+  author: "David Reinstein"
+  repo-url: https://github.com/daaronr/dr_quarto_template/
+  repo-actions: [edit, issue]
   chapters:
     - index.qmd
     - chapters/intro.qmd
     - chapters/summary.qmd
-    - chapters/references.qmd
+    - references.qmd
   reader-mode: true
-  
+
 comments:
     hypothesis: true
 
