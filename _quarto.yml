@@ -25,6 +25,8 @@ format:
     code-link: true #note: this isn't working for me
     code-tools: true
     theme: cosmo
+    citations-hover: true
+    footnotes-hover: true
 
  # pdf:
   #  documentclass: scrreprt
