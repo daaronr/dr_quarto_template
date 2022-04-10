@@ -6,6 +6,9 @@ book:
   title: "Reinstein's template for Quarto (WIP)"
   author: "David Reinstein"
   repo-url: https://github.com/daaronr/dr_quarto_template/
+  execute:
+    warning: false
+    message: false
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
@@ -25,9 +28,12 @@ format:
     code-link: true #note: this isn't working for me
     code-tools: true
     theme: cosmo
-
+    citations-hover: true
+    footnotes-hover: true
  # pdf:
   #  documentclass: scrreprt
+  #
+
 
 #editor: visual
 

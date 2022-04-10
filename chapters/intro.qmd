@@ -7,7 +7,8 @@ See @knuth84 for additional discussion of literate programming.
 
 ## Key content
 
-:::{.callout-caution collapse="true"}
+:::{.callout-note collapse="true"}
+
 ## Expand To Learn About Collapse
 
 This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.

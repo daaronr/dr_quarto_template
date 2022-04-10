@@ -6,6 +6,12 @@
 library(pacman)
 p_load(downlit)
 
-# render the book #### 
+devtools::install_github("rethinkpriorities/rp-r-package")
+library(rethinkpriorities)
+
+devtools::install_github("rethinkpriorities/r-noodling-package")
+library(rnoodling)
+
+# render the book ####
 system("quarto render")
 
