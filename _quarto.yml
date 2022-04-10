@@ -30,6 +30,7 @@ format:
     theme: cosmo
     citations-hover: true
     footnotes-hover: true
+
  # pdf:
   #  documentclass: scrreprt
   #
