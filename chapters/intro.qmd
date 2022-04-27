@@ -1,3 +1,4 @@
+
 # Introduction
 
 This is a book created from markdown and executable code.
@@ -13,3 +14,13 @@ See @knuth84 for additional discussion of literate programming.
 
 This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
 :::
+
+
+## Create an object to see if it crosses chapters
+
+```{r create-xtest}
+
+xtest <- 24
+
+```
+

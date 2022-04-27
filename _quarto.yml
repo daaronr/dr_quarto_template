@@ -7,8 +7,10 @@ book:
   author: "David Reinstein"
   repo-url: https://github.com/daaronr/dr_quarto_template/
   execute:
+    freeze: auto # re-render only when source changes
     warning: false
     message: false
+    error: true
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
