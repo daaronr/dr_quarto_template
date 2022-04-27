@@ -1,0 +1,14 @@
+{
+  "hash": "9999a967e8d3dd12b48c0e5ed0553b7a",
+  "result": {
+    "markdown": "\n# Introduction\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n\n## Key content\n\n:::{.callout-note collapse=\"true\"}\n\n## Expand To Learn About Collapse\n\nThis is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse=\"true\"` to collapse it by default or `collapse=\"false\"` to make a collapsible callout that is expanded by default.\n:::\n\n\n## Create an object to see if it crosses chapters\n\n::: {.cell}\n\n```{.r .cell-code}\nxtest <- 24\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": [],
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

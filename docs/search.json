@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Reinstein’s template for Quarto (WIP)",
+    "section": "",
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "chapters/intro.html",
+    "href": "chapters/intro.html",
+    "title": "\n1  Introduction\n",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming."
+  },
+  {
+    "objectID": "chapters/intro.html#key-content",
+    "href": "chapters/intro.html#key-content",
+    "title": "\n1  Introduction\n",
+    "section": "\n1.1 Key content",
+    "text": "1.1 Key content\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
+  },
+  {
+    "objectID": "chapters/intro.html#create-an-object-to-see-if-it-crosses-chapters",
+    "href": "chapters/intro.html#create-an-object-to-see-if-it-crosses-chapters",
+    "title": "\n1  Introduction\n",
+    "section": "\n1.2 Create an object to see if it crosses chapters",
+    "text": "1.2 Create an object to see if it crosses chapters\n\nCodextest <- 24\n\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "chapters/summary.html",
+    "href": "chapters/summary.html",
+    "title": "\n2  Summary\n",
+    "section": "",
+    "text": "You need to reload packages (and data) in every chapter, unlike in our previous Bookdown setups."
+  },
+  {
+    "objectID": "chapters/summary.html#air-quality",
+    "href": "chapters/summary.html#air-quality",
+    "title": "\n2  Summary\n",
+    "section": "\n2.1 Air Quality",
+    "text": "2.1 Air Quality\nFigure 2.1 further explores the impact of temperature on ozone level.\n\nCodelibrary(pacman)\np_load(ggplot2)\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) +\n  geom_point() +\n  geom_smooth(method = \"loess\"\n)\n\n\n\nFigure 2.1: Temperature and ozone level.\n\n\n\n\nIs the object from the previous chapter still there?\n\nCodextest\n\nError in eval(expr, envir, enclos): object 'xtest' not found\n\n\n\nCodeI'm a bug -- will it halt??\n\nError: <text>:1:2: unexpected INCOMPLETE_STRING\n1: I'm a bug -- will it halt??\n     ^"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]

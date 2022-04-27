@@ -1,0 +1,16 @@
+{
+  "hash": "b1f163df0bab2674f1ddd76ef33b98f1",
+  "result": {
+    "markdown": "# Summary\n\nYou need to reload packages (and data) in every chapter, unlike in our previous Bookdown setups.\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(pacman)\np_load(downlit)\n\ndevtools::install_github(\"rethinkpriorities/rp-r-package\")\nlibrary(rethinkpriorities)\n\ndevtools::install_github(\"rethinkpriorities/r-noodling-package\")\nlibrary(rnoodling)\n```\n:::\n\n## Air Quality {#air-quality}\n\n@fig-airquality further explores the impact of temperature on ozone level.\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(pacman)\np_load(ggplot2)\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) +\n  geom_point() +\n  geom_smooth(method = \"loess\"\n)\n```\n\n::: {.cell-output-display}\n![Temperature and ozone level.](summary_files/figure-html/fig-airquality-1.png){#fig-airquality width=672}\n:::\n:::\n\nIs the object from the previous chapter still there?\n\n::: {.cell}\n\n```{.r .cell-code}\nxtest\n```\n\n::: {.cell-output .cell-output-error}\n```\nError in eval(expr, envir, enclos): object 'xtest' not found\n```\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nI'm a bug -- will it halt??\n```\n\n::: {.cell-output .cell-output-error}\n```\nError: <text>:1:2: unexpected INCOMPLETE_STRING\n1: I'm a bug -- will it halt??\n     ^\n```\n:::\n:::",
+    "supporting": [
+      "summary_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": [],
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
