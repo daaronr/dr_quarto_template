@@ -24,3 +24,49 @@ xtest <- 24
 
 ```
 
+
+## Showing some material
+
+What if I want the code to be folded but not to spit results and side effects  onto the screen?
+
+```{r}
+#| results: false
+#| label: hideresults
+
+3+5
+
+a <- "happiness"
+
+```
+
+`r a`
+
+Did it display the sum?  Was the object defined?
+
+
+## Labeling/captioning chunks
+
+Wait, why do we just have 'code' labeling the chunks when you fold them. It would be much more useful to have a descriptive label you can see in the html. We can do this in each chunk with `#| code-summary: "blah blah"`, as below
+
+
+Note: the chunk options content itself is not shown. Below, we have: 
+
+```
+
+#| label: car-talk
+#| code-fold: true
+#| code-summary: "Car talk stuff"
+
+head(mtcars)
+
+```
+
+
+```{r}
+#| label: car-talk
+#| code-fold: true
+#| code-summary: "Car talk stuff"
+
+head(mtcars)
+
+```

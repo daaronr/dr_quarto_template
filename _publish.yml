@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 35ec3649-896b-4b4c-bda5-fcf70bc0ec1a
+      url: 'https://friendly-florentine-6b63c1.netlify.app'
