@@ -20,9 +20,17 @@ This is an example of a 'folded' caution callout that can be expanded by the use
 
 ```{r create-xtest}
 
+
 xtest <- 24
 
 ```
+
+
+## Example of inline code
+
+Before we defined the object `xtest` (see previous code block). You can also use integrate short code blocks into the narrative using "inline code" ... Type ``r xtest`` and the *value* of the object `xtest` shows up in your code, here `r xtest`. 
+
+
 
 
 ## Showing some material
@@ -52,9 +60,7 @@ Wait, why do we just have 'code' labeling the chunks when you fold them. It woul
 Note: the chunk options content itself is not shown. Below, we have: 
 
 ```
-
 #| label: car-talk
-#| code-fold: true
 #| code-summary: "Car talk stuff"
 
 head(mtcars)

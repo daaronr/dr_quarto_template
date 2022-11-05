@@ -1,4 +1,6 @@
 - source: project
   netlify:
     - id: 35ec3649-896b-4b4c-bda5-fcf70bc0ec1a
-      url: 'https://friendly-florentine-6b63c1.netlify.app'
+      url: 'https://reinstein-test.netlify.app'
+    - id: ef474935-f164-4287-bc1a-9f6f4eb2861e
+      url: 'https://effortless-cassata-c3a6ae.netlify.app'

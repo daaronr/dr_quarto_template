@@ -28,18 +28,25 @@
     "text": "1.2 Create an object to see if it crosses chapters\n\nCodextest <- 24"
   },
   {
+    "objectID": "chapters/intro.html#example-of-inline-code",
+    "href": "chapters/intro.html#example-of-inline-code",
+    "title": "\n1  Introduction\n",
+    "section": "\n1.3 Example of inline code",
+    "text": "1.3 Example of inline code\nBefore we defined the object xtest (see previous code block). You can also use integrate short code blocks into the narrative using “inline code” … Type 24 and the value of the object xtest shows up in your code, here 24."
+  },
+  {
     "objectID": "chapters/intro.html#showing-some-material",
     "href": "chapters/intro.html#showing-some-material",
     "title": "\n1  Introduction\n",
-    "section": "\n1.3 Showing some material",
-    "text": "1.3 Showing some material\nWhat if I want the code to be folded but not to spit results and side effects onto the screen?\n\nCode3+5\n\na <- \"happiness\"\n\n\nhappiness\nDid it display the sum? Was the object defined?"
+    "section": "\n1.4 Showing some material",
+    "text": "1.4 Showing some material\nWhat if I want the code to be folded but not to spit results and side effects onto the screen?\n\nCode3+5\n\na <- \"happiness\"\n\n\nhappiness\nDid it display the sum? Was the object defined?"
   },
   {
     "objectID": "chapters/intro.html#labelingcaptioning-chunks",
     "href": "chapters/intro.html#labelingcaptioning-chunks",
     "title": "\n1  Introduction\n",
-    "section": "\n1.4 Labeling/captioning chunks",
-    "text": "1.4 Labeling/captioning chunks\nWait, why do we just have ‘code’ labeling the chunks when you fold them. It would be much more useful to have a descriptive label you can see in the html. We can do this in each chunk with #| code-summary: \"blah blah\", as below\nNote: the chunk options content itself is not shown. Below, we have:\n\n#| label: car-talk\n#| code-fold: true\n#| code-summary: \"Car talk stuff\"\n\nhead(mtcars)\n\n\nCar talk stuffhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "section": "\n1.5 Labeling/captioning chunks",
+    "text": "1.5 Labeling/captioning chunks\nWait, why do we just have ‘code’ labeling the chunks when you fold them. It would be much more useful to have a descriptive label you can see in the html. We can do this in each chunk with #| code-summary: \"blah blah\", as below\nNote: the chunk options content itself is not shown. Below, we have:\n\n#| label: car-talk\n#| code-summary: \"Car talk stuff\"\n\nhead(mtcars)\n\n\nCar talk stuffhead(mtcars)\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "chapters/summary.html",
