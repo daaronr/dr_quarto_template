@@ -14,6 +14,8 @@ book:
     - references.qmd
   reader-mode: true
   page-navigation: true
+  page-footer:
+    center: "[More projects by David Reinstein](https://projects.davidreinstein.org/)"
   date: today
 
 execute:
