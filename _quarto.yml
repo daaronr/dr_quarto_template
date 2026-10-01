@@ -4,6 +4,10 @@ project:
 
 book:
   title: "Reinstein's template for Quarto (WIP)"
+  site-url: https://daaronr.github.io/dr_quarto_template/
+  description: "A work-in-progress Quarto book template that David Reinstein uses for research notes and dynamic documents."
+  open-graph: true
+  twitter-card: true
   author: "David Reinstein"
   repo-url: https://github.com/daaronr/dr_quarto_template/
   repo-actions: [edit, issue]
